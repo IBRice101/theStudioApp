@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">theStudioApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_aboutUs">About Us</string>
+    <string name="title_signUp">Sign Up</string>
+    <string name="title_logIn">Log In</string>
+    <string name="title_contactUs">Contact Us</string>
+    <string name="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id lorem libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ut maximus justo. In quam dui.</string>
+    <string name="loremIpsum1">Donec varius nec dolor in feugiat. Nullam quis arcu nec quam accumsan elementum. Nam vehicula tempus tellus at luctus. Proin sollicitudin, sem id mollis finibus, tortor justo pulvinar ligula, at elementum felis.</string>
+    <string name="loremIpsum2">Aliquam a mauris diam. Nulla facilisi. Donec ut porta ligula, in porta lectus. Nulla facilisi. Proin sit amet quam vitae orci rhoncus efficitur. Maecenas scelerisque ante ante, vitae rutrum felis laoreet eu.</string>
+    <string name="loremIpsum3">Pellentesque nec maximus ante, nec laoreet nibh. Phasellus auctor mollis dui, ac scelerisque mi. Integer faucibus eleifend augue vitae maximus. Pellentesque risus augue, mattis in nulla in, auctor ultrices ligula. Mauris hendrerit.</string>
+    <string name="loremIpsum4">Nullam imperdiet non turpis in suscipit. Donec vel tempus tortor. Suspendisse eu ullamcorper dolor. Nam nec velit nunc. Vivamus gravida ultrices metus facilisis viverra. Maecenas mattis urna sit amet dolor volutpat maximus.</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="userName">Username</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="comment">Comment Here</string>
+    <string name="otherMethods">Other methods of contacting us include:</string>
+    <string name="schoolPhoneNumbers"> 
+      Phone numbers:
+      School Reception – 0151 230 1320
+      Admissions/Applications – 0151 641 8467
+      Press and Marketing queries – 0151 261 2958
+    </string>
+    <string name="schoolEmail">
+      Email address:
+      admin@thestudio-liverpool.co.uk
+    </string>
+    <string name="schoolAddress">
+      School address:
+      The Studio
+      41 Greenland Street
+      Liverpool
+      L1 0BS
+    </string>
+</resources>
