@@ -16,7 +16,6 @@ public class ReadAsset : Activity
 	protected override void OnCreate (Bundle savedinstanceState)
 	{
 		base.OnCreate (savedinstanceState);
-
 		InputStream input = Assets.Open ("my_asset.txt");
 	}
 }
@@ -28,6 +27,7 @@ Typeface tf = Typeface.CreateFromAsset (Context.Assets, "fonts/samplefont.ttf");
 It is not beyond the realm of feasibility that a future developer may decide to migrate any assets from their presently existing folders into the Assets folder however this may not achieve anything other than being aesthetically pleasing and present a further ease of understanding to any future developer.	
 2.	Frags
 The Frags, or Fragments folder, houses the code that is required to deploy the fragments for each page of the app, the following code example is from the fragAboutUs.cs file and is essentially identical from the rest apart from the highlighted sections, which change depending on the page each frag is calling:
+
 namespace theStudioApp
 {
     public class fragAboutUs : Fragment
@@ -37,19 +37,17 @@ namespace theStudioApp
             //notifies when fragments are run
             base.OnCreate(savedinstanceState);
             Toast.MakeText(Context.ApplicationContext, "fragAboutUs oncreate has been run", ToastLength.Short).Show();
-            
         }
-
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedinstanceState)
         {
             //gets the layout file and makes it a view, inflates it to the size of the screen
             return inflater.Inflate(Resource.Layout.layoutAboutUs, container, false);
-
             //TODO: remove unreachable code below
             //return base.OnCreateView(inflater, container, savedinstanceState);
         }
     }
 }
+
 3.	Resources
 This folder has the majority of content within the app nested within folders herein and as such is arguably the most important folder, making changes (specifically removing items) here is not advised whatsoever.
 a.	Drawable
